@@ -17,6 +17,7 @@ function RenderingLists() {
         {products.map((item) => {
           return (
             <li
+              key={item.id}
               style={{
                 color: item.isFruit ? "blue" : "darkgreen",
               }}
