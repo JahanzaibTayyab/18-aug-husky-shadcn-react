@@ -15,7 +15,7 @@ export default function Home() {
       <button className="bg-green-500 p-2 rounded-sm">Click me</button>
       <div className="flex gap-5 py-5">
         <PrimaryButton />
-        <Input />
+        <Input type="text" name="sample" placeholder="Input Field" />
         <Button variant={"secondary"}>ShadCN UI Button</Button>
       </div>
       <PrimaryButton />
