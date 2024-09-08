@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 
 function ReactStates() {
-  const [value, setValue] = useState(1000);
+  const [value, setValue] = useState(100);
   //let value = 0;
   console.log("🚀 ~ ReactStates ~ value:", value);
 

@@ -22,6 +22,7 @@ export default function RootLayout({
           <Link href={"/"}>Home</Link>
           <Link href="/reactAdvanced">React Advanced</Link>
           <Link href="/reactAdvanced/reactStates">React States</Link>
+          <Link href="/reactAdvanced/reactLifeCycle">React Lifecycle</Link>
         </div>
         {children}
       </body>
